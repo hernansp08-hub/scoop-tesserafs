@@ -1,0 +1,23 @@
+{
+  "version": "0.10.0",
+  "description": "Disk space analyzer: a treemap of your disk, duplicates, scan history and explained cleanup suggestions. Everything stays local.",
+  "homepage": "https://github.com/hernansp08-hub/TesseraFS",
+  "license": "MIT|Apache-2.0",
+  "url": "https://github.com/hernansp08-hub/TesseraFS/releases/download/v0.10.0/TesseraFS-0.10.0-escritorio-win-x64.zip",
+  "hash": "4d6d7864d9819f9f70ad5c506db7a563c6462d1f239bc1718623af2a45d64370",
+  "extract_dir": "TesseraFS-0.10.0-escritorio",
+  "bin": "tessera-cli.exe",
+  "shortcuts": [
+    [
+      "tesserafs-desktop.exe",
+      "TesseraFS"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/hernansp08-hub/TesseraFS"
+  },
+  "autoupdate": {
+    "url": "https://github.com/hernansp08-hub/TesseraFS/releases/download/v$version/TesseraFS-$version-escritorio-win-x64.zip",
+    "extract_dir": "TesseraFS-$version-escritorio"
+  }
+}
